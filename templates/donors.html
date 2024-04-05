@@ -1,0 +1,51 @@
+{% extends 'index.html' %}
+{% block head %}
+<style>
+    .search-bar {
+        display: flex;
+        align-items: center;
+    }
+    .search-input {
+        flex: 1;
+        margin-right: 10px;
+    }
+</style>
+<title>About Us</title>
+{% endblock head %}
+{% block body %}
+<div class="container" style="margin-top: 8rem;">
+    <div class="search-bar-container">
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="/search" method="GET">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="query" placeholder="Search...">
+                            <div class="input-group-append">
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="categoryDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Category
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="categoryDropdown">
+                                        <a class="dropdown-item" href="#">Markdown Option 1</a>
+                                        <a class="dropdown-item" href="#">Markdown Option 2</a>
+                                        <a class="dropdown-item" href="#">Markdown Option 3</a>
+                                        <!-- Add more dropdown items as needed -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group-append">
+                                <button class="btn btn-danger" type="submit">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+{% endblock body %}

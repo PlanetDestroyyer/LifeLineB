@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blood Donation Website</title>
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/contacts/contact-1/assets/css/contact-1.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <section class="home-base">
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="logo">
+            <img src="/static/image/logo.png" alt="logo" srcset="" width="200">
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/get_involved">Get Involve</a></li>
+              <li><a href="/donors">Donors</a></li>
+              <li><a href="/contactus">Contact US</a></li>
+
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+  </section>
+
+  {% block body %}
+  
+  <section>
+    <div class="home-img-bg"></div>
+  </section>
+  <div class=""></div>
+  <section class="home-mid-1">
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="mt-5 img-doc"> <img src="static\image\doctorimg.jpg" alt="doc pic" srcset="" width="500"
+              style="border-radius: 10px;"></div>
+
+        </div>
+        <div class="col">
+          <div class="container mt-5 home-page">
+            <h3>MAKE AN IMPACT</h3>
+            <h1>Who We Are</h1>
+            <p>Your donation matters. It can provide vital medicine, treatment, and essentials for thousands of children
+              fighting illness. Join us in making a difference—one donation at a time. Your support is their lifeline.
+              Donate now.</p>
+            <button type="button" class="btn btn-danger">Donate Now!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="home-mid-2 mt-5">
+    <div class="container">
+      <div style=" padding:10px; text-align:center;border: radius 2px; border:#862020 2px solid">
+        <h1>Why Blood Donation is Important?</h1>
+      </div>
+      <div class="mt-4">
+        <img src="https://media.defense.gov/2013/Aug/06/2000923012/1200/1200/0/130806-F-BD983-061.JPG" alt="" srcset=""
+          width="1100" class="center" style="border-radius: 10px;">
+      </div>
+      <div class="why-p mt-4">
+        <p>Blood donation plays a pivotal role in healthcare by saving lives during emergencies, supporting individuals
+          with chronic conditions, and enabling essential medical procedures like surgeries and organ transplants. By
+          donating blood, individuals contribute to the overall health of their communities, helping to prevent
+          shortages and ensuring that hospitals have an ample supply to meet the needs of patients requiring
+          transfusions</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="line-between my-5"></div>
+
+  <section class="home-mid-3">
+    <div class="container">
+      <div style=" padding:10px; text-align:center;border: radius 2px; border:#862020 2px solid">
+        <h1>GET INVOLVED</h1>
+      </div>
+      <section class="dark mt-5">
+        <div class="container py-4">
+          <article class="postcard dark blue">
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="static\image\doc1.jpg" alt="Image Title" />
+            </a>
+            <div class="postcard__text">
+              <div class="left-marign">
+                <h1 class="postcard__title">Donate Blood</h1>
+                <h3 class="postcard__subtitle">Give the gift of life</h3>
+                <div class="postcard__bar"></div>
+                <p class="postcard__preview-txt">Every drop counts! Your donation can save up to three lives. Join us in
+                  our mission to ensure a steady blood supply for those in need.
+              </div>
+              </p>
+            </div>
+
+          </article>
+          <article class="postcard dark red">
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="static\image\v1.jpg" alt="Image Title" />
+            </a>
+            <div class="postcard__text">
+              <div class="left-marign">
+                <h1 class="postcard__title">Volunteer Team</h1>
+                <h3 class="postcard__subtitle">Join us in making a difference</h3>
+                <div class="postcard__bar"></div>
+                <p class="postcard__preview-txt">Make an impact in your community by volunteering with us! Whether it's
+                  lending a helping hand at events or participating in community outreach programs, your efforts will
+                  contribute to positive change.
+              </div>
+              </p>
+            </div>
+
+          </article>
+          <article class="postcard dark green">
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img"
+                src="https://www.thelifeyoucansave.org/wp-content/uploads/2019/11/Screen-Shot-2015-07-13-at-1.53.34-PM.png"
+                alt="Image Title" />
+            </a>
+            <div class="postcard__text">
+              <div class="left-marign">
+                <h1 class="postcard__title">Donate Money</h1>
+                <h3 class="postcard__subtitle">Support our cause financially</h3>
+                <div class="postcard__bar"></div>
+                <p class="postcard__preview-txt">Your financial contribution fuels our initiatives and helps us reach
+                  more people in need. Every donation, no matter how small, brings us closer to achieving our goals and
+                  making a lasting impact on society.
+              </div>
+              </p>
+            </div>
+
+          </article>
+        </div>
+      </section>
+
+
+    </div>
+  </section>
+
+  <!-- <div class="line-between my-5"></div> -->
+
+  <section class="bottom-up">
+    
+  </section>
+  </div>
+  </section>
+  <section class="bottom-down"></section>
+
+  {% endblock body %}
+  <section class="bottom">
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>LIFELINEB
+          </h6>
+          <p>
+            "LIFELINEB: Saving Lives Through Blood Donation. Join us in our mission to connect donors with those in need. Be a part of our community and make a difference today."
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Get Involve</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Donors</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">About Us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Pune , India</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            lifelineBcontactus@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +91 8459582668</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $(".menu-icon").on("click", function () {
+        $("nav ul").toggleClass("showing");
+      });
+    });
+
+    // Scrolling Effect
+
+    $(window).on("scroll", function () {
+      if ($(window).scrollTop()) {
+        $('nav').addClass('black');
+      }
+
+      else {
+        $('nav').removeClass('black');
+      }
+    })
+  </script>
+</body>
+
+</html>
