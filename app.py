@@ -6,7 +6,6 @@ from waitress import serve
 app = Flask(__name__, static_url_path='/static')
 
 
-# app.config["MONGO_URI"] = "mongodb+srv://wrieddude:Pranav369@cluster0.xu62g1z.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient("mongodb+srv://Pranav:Pranav_369@blooddonatio.h8fbs15.mongodb.net/?retryWrites=true&w=majority&appName=bloodDonatio")
 db = client.get_database('B&D_Donation')
 
