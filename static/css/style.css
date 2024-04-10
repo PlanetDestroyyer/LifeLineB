@@ -77,6 +77,13 @@ nav ul li a {
 
 }
 
+.search_f {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
 nav ul li a:hover {
     color: white;
     text-decoration: none;
