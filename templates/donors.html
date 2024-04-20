@@ -42,13 +42,13 @@
                         <h5 class="card-title">Donor Name : {{ results.full_name}}</h5>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Email : {{results.email}}</li>
+                        <li class="list-group-item">Donors ID : {{ donor._id }}</li>
                         <li class="list-group-item">Blood Group : {{ results.blood_grp }}</li>
                         <li class="list-group-item">Organ : {{ results.organ}}</li>
-                        <li class="list-group-item">Phone Number : {{ results.number }}</li>
-                        <li class="list-group-item">Address : {{ results.address }}</li>
+
                     </ul>
                 </div>
+                <button type="button" class="btn btn-danger text-center ml-5a href="https://forms.gle/xMMBm6dUemG4FTVR7" style="text-decoration: none; color:whitesmoke;">Get Donors Details</a></button>
             </div>
             {% endfor %}
         </div><!-- end row -->
@@ -60,14 +60,16 @@
                         <h5 class="card-title">Donor Name : {{ donor.full_name}}</h5>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Email : {{donor.email}}</li>
+                        <li class="list-group-item">Donors ID : {{ donor._id }}</li>
                         <li class="list-group-item">Blood Group : {{ donor.blood_grp }}</li>
                         <li class="list-group-item">Organ : {{ donor.organ}}</li>
-                        <li class="list-group-item">Phone Number : {{ donor.number }}</li>
-                        <li class="list-group-item">Address : {{ donor.address }}</li>
+                        
                     </ul>
+                    <!-- <button type="button" class="btn btn-danger"><a href="https://forms.gle/xMMBm6dUemG4FTVR7" style="text-decoration: none; color:whitesmoke;">Get Donors Details!</a></button> -->
                 </div>
+                    <button type="button" class="btn btn-danger text-center ml-5"><a href="https://forms.gle/xMMBm6dUemG4FTVR7" style="text-decoration: none; color:whitesmoke;">Get Donors Details</a></button>
             </div>
+            
             {% endfor %}
         </div><!-- end row -->
     </div><!-- end container -->
